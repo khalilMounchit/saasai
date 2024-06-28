@@ -1,5 +1,5 @@
 {
-  "name": "xyz.xshadow.portfolio",
+  "name": "we.own.ai",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -28,7 +28,7 @@
     "tailwindcss": "^3.3.3",
     "tw-colors": "^3.3.1",
     "typescript": "^5.0.2",
-    "vite": "^5.2.8"
+    "vite": "^5.3.2"
   },
   "description": "<p float=\"left\" align=\"center\">\r   <img src=\"https://i.imgur.com/U9lFsUG.jpeg\" width=15% />\r   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://i.imgur.com/b1a39cz.png\" width=40% />\r   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://i.ibb.co/n0C9kvJ/o.png\" width=15% height=10%/>\r </p>",
   "repository": {
