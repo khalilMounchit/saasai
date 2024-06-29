@@ -44,7 +44,7 @@ export default function Fishsim() {
       </Animated>
       <iframe src="https://fishsim.pages.dev" scrolling="no" height="100%" width="100%" onLoad={() => {
         setTimeout(() => {
-          setLoaded(true); // added a timeout to make sure the pygame finished loading
+          setLoaded(true); 
         }, 3000);
       }}></iframe>
     </div>
