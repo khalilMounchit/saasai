@@ -36,9 +36,9 @@ export default function Desktop() {
     useEffect(() => {
         handleResize();
 
-        
+        // umami domain metrics (ts-ignore as umami will be defined when loaded)
         try {
-          
+          // @ts-ignore
           umami.track(`Domain: ${window.location.hostname}`)
         } catch (error) {
           
