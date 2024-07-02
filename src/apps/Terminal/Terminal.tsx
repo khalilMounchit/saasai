@@ -37,7 +37,7 @@ export default function Terminal() {
                 }}/>
               })}
               <p>
-                visitor@maxluc:~$ 
+                khalil@weownit:~$ 
                 <input id={termInputId} className='ml-2 bg-transparent focus:outline-none' style={{width: inputData.length === 0 ? 1 : `${inputData.length}ch`}} placeholder='' value={inputData} onChange={(value) => {inputHandler(value.target.value)}} onKeyDown={(key) => {
                     switch (key.keyCode) { // Had to use deprecated keycode to prevent compatibility issues
                       case 13:
