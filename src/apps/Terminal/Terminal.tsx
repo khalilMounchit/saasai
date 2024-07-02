@@ -23,7 +23,7 @@ export default function Terminal() {
       <div className="w-full h-full md:h-96 rounded-b-md" onClick={() => focusInput()}>
           <div className='flex flex-col justify-end'>
             <div className='font-mono w-full h-full md:h-96 p-3 text-white overflow-y-scroll noscrollbar' style={{height: window.innerWidth < 768 ? window.innerHeight-100 : 385}} id={termId}>
-              <p className='text-gray-400 mb-5'><span class='gradient-text'>Welcome to PortfoliOS 1.1.2 (x64)</span><br/><br/>
+              <p className='text-gray-400 mb-5'><span class='gradient-text'>Welcome to Own It 1.1.2 (x64)</span><br/><br/>
                 * Website:  https://saasai-ten.vercel.app | https://saasai-ten.vercel.app<br/>
                 * Support:  weownit@gmail.com
                 </p>

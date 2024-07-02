@@ -6,7 +6,7 @@ export default function AboutMe() {
     <div class='rounded-md h-full w-full bg-gray-700'>
         <div class='p-10 rounded-md gap-5 text-center text-white w-full h-full flex flex-col pt-20 items-center justify-center'>
             <Animated animationIn="fadeInDown"  animationOut="fadeOut" isVisible={true} animationInDuration={1000}>
-                <h1 class='text-4xl font-bold'><span class='font-bold '>Hey!</span> {t('app.aboutme.content.title')}<span class='gradient-text'>Maxim</span>.</h1>
+                <h1 class='text-4xl font-bold'><span class='font-bold '>Hey!</span> {t('app.aboutme.content.title')}<span class='gradient-text'>We OWn It</span>.</h1>
                 <p>{t('app.aboutme.content.subtitle')}</p>
             </Animated>
 
