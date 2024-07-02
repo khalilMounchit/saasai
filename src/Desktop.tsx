@@ -110,7 +110,7 @@ export default function Desktop() {
             </div> : <></>}
             {showWelcome ? (<div ref={refs.setFloating} style={floatingStyles} class="z-50"><WelcomePopup hide={() => {setShowWelcome(false)}} isMobile={isMobile}/></div>) : null}
             <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={5000} isVisible={!isAppFullscreen.value}>
-              <p class={`absolute bottom-0 md:bottom-5 right-0 text-xs pr-2 pb-2 md:pb-0 md:pr-5 md:text-sm text-end text-white opacity-20`}>© {new Date().getFullYear()} <a href='https://github.com/shadowdevfr' class='hover:opacity-50 transition' target='_blank'> Maxim Lucas</a> {pepsimode.value ? <span class='text-xl'><br/>🐈 Pepsi Mode</span> : ''}</p>
+              <p class={`absolute bottom-0 md:bottom-5 right-0 text-xs pr-2 pb-2 md:pb-0 md:pr-5 md:text-sm text-end text-white opacity-20`}>© {new Date().getFullYear()} <a href='https://github.com/KhalilMounchit' class='hover:opacity-50 transition' target='_blank'> Khalil Mounchit</a> {pepsimode.value ? <span class='text-xl'><br/>🐈 Pepsi Mode</span> : ''}</p>
             </Animated>
             <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={5000} isVisible={!isAppFullscreen.value}>
               <p class='md:hidden w-full text-center absolute bottom-10 text-lg text-white'>{t('looksbetteronpc')}</p>

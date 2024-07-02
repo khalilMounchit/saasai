@@ -19,7 +19,7 @@ export default function AboutWebsite() {
         <p>{t('app.aboutwebsite.content.p5')} <a href='https://icons8.com/' target="_blank" class='underline font-normal'><img src='/3rdparty/icons8.png' class='w-5 h-5 inline' target="_blank"/> Icons8</a>.</p>
         <p>{t('app.aboutwebsite.content.p6')} <a href='https://cloudflare.com/' target="_blank" class='underline font-normal'><img src='/3rdparty/cloudflare.png' class='h-3 inline' target="_blank"/> CloudFlare Pages</a>.</p>
         <div class='h-full'/>
-        <p class='text-sm text-center w-full text-gray-500'>Copyright © {new Date().getFullYear()} <a href='https://github.com/khalilMounchit' target='_blank'>Maxim Lucas</a> {t('copyright')}</p>
+        <p class='text-sm text-center w-full text-gray-500'>Copyright © {new Date().getFullYear()} <a href='https://github.com/khalilMounchit' target='_blank'>Khalil Mounchit</a> {t('copyright')}</p>
         <div class='flex flex-row items-center justify-center w-full text-white mt-2 mb-1 p-4 gap-3 '>
           <a class='hover:bg-white hover:text-black/80 transition bg-white/20 rounded-full flex gap-2 items-center px-2 py-1' href='https://github.com/khalilMounchit/saas' target="_blank"><Icon path={mdiGithub} size={1}/> {t('actionbuttons.srccode')}</a>
           <button class='hover:bg-white hover:text-black/80 transition bg-white/20 rounded-full flex gap-2 items-center px-2 py-1' onClick={() => {window.location.reload(); localStorage.clear()}}><Icon path={mdiRestart} size={1}/> {t('actionbuttons.reset')}</button>
