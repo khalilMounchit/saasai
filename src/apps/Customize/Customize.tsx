@@ -1,6 +1,6 @@
 import { wallpaper } from "../../Signals";
 
-const wallpapers = ["1.webp", "3.webp", "4.webp", "5.webp", "6.webp", "7.webp", "8.webp"];
+const wallpapers = ["1.png", "3.png","2.jpg", "4.jpg", "5.jpg", "6.png", "7.png", "8.png", "9.png", "10.png"];
 export default function Customize() {
   return (
     <div class='w-full h-full flex flex-col gap-2 items-center p-5 rounded-b-md'>
