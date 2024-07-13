@@ -15,9 +15,9 @@ export default function ProjectCard(props:{project:Project,setViewProject:any}) 
             <p class='text-xs font-light text-gray-400'>{language.value == 'fr' ? props.project.subtitleFR : props.project.subtitleEN}</p>
             <div class='flex items-center justify-center flex-wrap mt-2'>
               {props.project.skillsName ? props.project.skillsName.map((skill) => {
-                  return <span class='text-xs bg-white/10 rounded-md p-1 m-1'>{skill}</span>
+                  return <span class='text-xs bg-purple-600/100 rounded-md p-1 m-1'>{skill}</span>
               }) : <></>}
-              {props.project.executable ? <span class='text-xs bg-blue-500/50 border-2 border-blue-500 rounded-md p-1 m-1'>✨ Ai App</span> : <></>}
+              {props.project.executable ? <span class='text-xs bg-purple-500/50 border-2 border-purple-500 rounded-md p-1 m-1'>✨ Ai App</span> : <></>}
             </div>
         </div>
         
