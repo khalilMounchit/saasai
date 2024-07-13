@@ -1,5 +1,5 @@
 import { Animated } from "react-animated-css";
-import { languages, frameworks, db, tools } from "../MyProjects/data";
+import { languages, frameworks, db, tools } from "../../data";
 import SkillCard from "./lib/SkillCard";
 import { useState } from "preact/hooks";
 import SkillTab from "./lib/SkillTab";

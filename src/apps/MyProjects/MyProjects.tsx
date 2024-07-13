@@ -1,5 +1,5 @@
 import { Animated } from "react-animated-css";
-import { projects } from "./data";
+import { projects } from "../../data";
 import ProjectCard from "./lib/ProjectCard";
 import { useState } from "preact/hooks";
 import ProjectInfo from "./ProjectInfo";
