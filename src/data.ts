@@ -23,11 +23,8 @@ import {
    mdiLanguageGo,
    mdiAbacus,
  
-   mdiSeo, // Error: Module '"@mdi/js"' has no exported member 'mdiSeo'.
-   mdiAccessibility, // Error: Module '"@mdi/js"' has no exported member 'mdiAccessibility'.
-   mdiVercel, // Error: Module '"@mdi/js"' has no exported member 'mdiVercel'.
-   mdiThreejs, // Error: Module '"@mdi/js"' has no exported member named 'mdiThreejs'. Did you mean 'mdiTree'?
-   mdiSass
+ 
+  
 } from '@mdi/js';
 
 const languages: Skill[] = [
@@ -72,11 +69,9 @@ const tools: Skill[] = [
   
   {name:"Visual Studio Code", mdi:mdiMicrosoftVisualStudioCode},
   {name:"GitHub", mdi:mdiGithub},
-  {name:"SEO", mdi:mdiSeo},
-  {name:"Web Accessibility", mdi:mdiAccessibility},
-  {name:"Three.js", mdi:mdiThreejs},
-  {name:"Vercel", mdi:mdiVercel},
-  {name:"Sass", mdi:mdiSass}
+  
+ 
+ 
 ]
 
 const projects: Project[] = [
