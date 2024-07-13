@@ -23,11 +23,10 @@ import {
    mdiLanguageGo,
    mdiAbacus,
  
-   mdiSeo,
-   mdiAccessibility,
-   
-   mdiVercel,
-   mdiThreejs,
+   mdiSeo, // Error: Module '"@mdi/js"' has no exported member 'mdiSeo'.
+   mdiAccessibility, // Error: Module '"@mdi/js"' has no exported member 'mdiAccessibility'.
+   mdiVercel, // Error: Module '"@mdi/js"' has no exported member 'mdiVercel'.
+   mdiThreejs, // Error: Module '"@mdi/js"' has no exported member named 'mdiThreejs'. Did you mean 'mdiTree'?
    mdiSass
 } from '@mdi/js';
 
