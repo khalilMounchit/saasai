@@ -10,7 +10,7 @@ export default function ProjectCard(props:{project:Project,setViewProject:any}) 
             <div class='absolute top-0 h-full w-full opacity-0 transition hover:opacity-100 hover:backdrop-blur-sm hover:bg-white/5 rounded-md flex flex-col items-center justify-center gap-2'>
                 <p class='text-xl'>{t("app.myprojects.content.learnmore")}</p>
             </div>
-            {/* Replace the img tag with Next.js Image component */}
+            
             <Image src={props.project.image} alt={`${props.project.title} image`} width={500} height={300} />
         </button>
         <div class='p-2 text-center'>
@@ -20,7 +20,7 @@ export default function ProjectCard(props:{project:Project,setViewProject:any}) 
               {props.project.skillsName ? props.project.skillsName.map((skill) => {
                   return <span class='text-xs bg-white/10 rounded-md p-1 m-1'>{skill}</span>
               }) : <></>}
-              {props.project.executable ? <span class='text-xs bg-blue-500/50 border-2 border-blue-500 rounded-md p-1 m-1'>✨ Portfolio App</span> : <></>}
+              {props.project.executable ? <span class='text-xs bg-blue-500/50 border-2 border-blue-500 rounded-md p-1 m-1'>✨ Ai App</span> : <></>}
             </div>
         </div>
         

@@ -83,7 +83,7 @@ const projects: Project[] = [
           "An easy and fast ai ai chat powered by a Gemini_ai_API backend. No ads, no pop-ups.",
       descriptionFR:
           "Un chat AI facile et rapide alimenté par une API Gemini_ai_API. Pas de publicité, pas de pop-up.",
-      image: "/public/projets/téléchargement.png",
+      image: "/public/projets/téléchargement.webp",
       link: "https://chatwhitrepo.vercel.app/",
       skillsName: ["nextjs", "ai", "TailwindCSS", "Vite"]
 
@@ -96,7 +96,7 @@ const projects: Project[] = [
           "chatwithtrainedai, a content generation bot, simplifies and elevates your creative process. Whether crafting engaging blog posts, soulful song lyrics, or attention-grabbing Insta captions, chatwithtrainedai's advanced algorithms seamlessly transform your ideas into polished, professional content.",
       descriptionFR:
           "chatwithtrainedai, un bot de génération de contenu, simplifie et élève votre processus créatif. Que vous rédigiez des articles de blog captivants, des paroles de chansons émouvantes ou des légendes Instagram accrocheuses, les algorithmes avancés de chatwithtrainedai transforment vos idées en contenu poli et professionnel de manière transparente.",
-      image: "/public/projets/chatgpt.png",
+      image: "/public/projets/chatgpt.webp",
       link: "https://chatwithtrainedai.vercel.app/",
       skillsName: ["Svelte", "Elysia", "TypeScript", "BunJS", "TailwindCSS", "MongoDB", "Vite"]
     },
@@ -107,7 +107,7 @@ const projects: Project[] = [
       subtitleFR: "est une application qui permet à un utilisateur de partager facilement des fichiers entre différents appareils.",
       descriptionEN: "is an application that allows a user to seamlessly share files across other devices without any signups or compromises about quality.",
       descriptionFR: "est une application qui permet à un utilisateur de partager facilement des fichiers entre différents appareils sans inscription ni compromis sur la qualité.",
-      image: "/public/projets/sharefile.png",
+      image: "/public/projets/sharefile.webp",
       link: "https://sharefile-dun.vercel.app/",
       skillsName: ["TypeScript","uploadthing", "PyGame"]
     }
