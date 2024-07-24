@@ -15,7 +15,7 @@ export default function AboutMe() {
             </Animated>
 
             <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true} animationInDuration={2000} animationInDelay={1000}>
-                <button class='bg-blue-600 shadow p-2 rounded-md opacity-50 cursor-not-allowed'>
+                <button class='bg-purple-500 shadow p-2 rounded-md opacity-50 cursor-not-allowed'>
                     {t('app.aboutme.content.btn')}
                 </button>
             </Animated>

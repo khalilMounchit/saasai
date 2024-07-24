@@ -86,30 +86,51 @@ const projects: Project[] = [
       image: "/projets/chatwithrepo.webp",
       link: "https://chatwhitrepo.vercel.app/",
       skillsName: ["nextjs", "ai", "TailwindCSS", "Vite"]
-
     },
     {
       title: "chatwithtrainedai (2024-...)",
       subtitleEN: "Full Stack web fully featured modern trained chatbot",
       subtitleFR: "Chatbot web Full Stack entièrement équipé et moderne",
       descriptionEN:
-          "chatwithtrainedai, a content generation bot, simplifies and elevates your creative process. Whether crafting engaging blog posts, soulful song lyrics, or attention-grabbing Insta captions, chatwithtrainedai's advanced algorithms seamlessly transform your ideas into polished, professional content.",
+          "AI chat allows you to engage in dynamic conversations, providing instant responses and creative solutions.",
       descriptionFR:
-          "chatwithtrainedai, un bot de génération de contenu, simplifie et élève votre processus créatif. Que vous rédigiez des articles de blog captivants, des paroles de chansons émouvantes ou des légendes Instagram accrocheuses, les algorithmes avancés de chatwithtrainedai transforment vos idées en contenu poli et professionnel de manière transparente.",
-      image: "/projets/chatgpt.webp",
+          "Le chat AI vous permet de participer à des conversations dynamiques, fournissant des réponses instantanées et des solutions créatives.",
+      image: "/projets/aichat.webp",
       link: "https://chatwithtrainedai.vercel.app/",
-      skillsName: ["Svelte", "Elysia", "TypeScript", "BunJS", "TailwindCSS", "MongoDB", "Vite"]
+      skillsName: ["Gemini", "Javascript", "TypeScript", "TailwindCSS"]
     },
     {
-      title: "Sharefile  (2024)",
-      executable: "Sharefile",
-      subtitleEN: "is an application that allows a user to seamlessly share files across other devices.",
-      subtitleFR: "est une application qui permet à un utilisateur de partager facilement des fichiers entre différents appareils.",
-      descriptionEN: "is an application that allows a user to seamlessly share files across other devices without any signups or compromises about quality.",
-      descriptionFR: "est une application qui permet à un utilisateur de partager facilement des fichiers entre différents appareils sans inscription ni compromis sur la qualité.",
-      image: "/projets/sharefile.webp",
-      link: "https://sharefile-dun.vercel.app/",
-      skillsName: ["TypeScript","uploadthing", "PyGame"]
+      title: "story&image  (2024)",
+      executable: "story&image",
+      subtitleEN: "An AI application that generates stories accompanied by images.",
+      subtitleFR: "Une application AI qui génère des histoires accompagnées d'images.",
+      descriptionEN: "This application allows users to create unique stories with AI-generated images, enhancing the storytelling experience.",
+      descriptionFR: "Cette application permet aux utilisateurs de créer des histoires uniques avec des images générées par AI, améliorant ainsi l'expérience de narration.",
+      image: "/projets/storyimg.webp",
+      link: "https://ai-story-with-image.vercel.app/",
+      skillsName: ["TypeScript","upsolash", "Gemini"]
+    },
+    {
+      title: "LanguageTranslator  (2024)",
+      executable: "LanguageTranslator",
+      subtitleEN: "An AI application that translates text between multiple languages.",
+      subtitleFR: "Une application AI qui traduit du texte entre plusieurs langues.",
+      descriptionEN: "This application allows users to input text and receive translations in various languages, enhancing communication across cultures.",
+      descriptionFR: "Cette application permet aux utilisateurs d'entrer du texte et de recevoir des traductions dans plusieurs langues, améliorant ainsi la communication entre les cultures.",
+      image: "/projets/translator.webp",
+      link: "https://langtranslator-khalilmounchits-projects.vercel.app/",
+      skillsName: ["TypeScript","upsolash", "Gemini"]
+    },
+    {
+      title: "Ai_Neflix  (2024)",
+      executable: "Ai_Neflix",
+      subtitleEN: "An AI-powered application that provides personalized movie and show recommendations.",
+      subtitleFR: "Une application alimentée par l'IA qui fournit des recommandations personnalisées de films et d'émissions.",
+      descriptionEN: "This application uses AI to analyze user preferences and suggest movies and shows tailored to individual tastes.",
+      descriptionFR: "Cette application utilise l'IA pour analyser les préférences des utilisateurs et suggérer des films et des émissions adaptés aux goûts de chacun.",
+      image: "/projets/netlixai.webp",
+      link: "https://netflixaisuggestion-khalilmounchits-projects.vercel.app/",
+      skillsName: ["TypeScript","upslash", "Gemini"]
     }
 ];
  

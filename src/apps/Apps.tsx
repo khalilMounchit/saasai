@@ -44,7 +44,7 @@ const apps: App[] = [
         component: () => <Suspense fallback={<LoadingApp/>}><MyProjects/></Suspense>
     },
     {
-        name: t('app.skills'),
+        name: t('Skills'),
         window: {
             width: 700,
             height: 550,
@@ -52,7 +52,7 @@ const apps: App[] = [
             maximizable: true,
             minimizable: true,
             fullscreenable: true,
-            title: t('app.skills.title')
+            title: t('Skills')
         },
         icon: '/apps/skills.png',
         component: () => <Suspense fallback={<LoadingApp/>}><SkillsMain /></Suspense>
@@ -101,7 +101,7 @@ const apps: App[] = [
         component: () => <Suspense fallback={<LoadingApp/>}><Pepsi/></Suspense>
     },
     {
-        name: t('app.email'),
+        name: t('Email'),
         window: {
             width: 600,
             height: 500,
@@ -109,7 +109,7 @@ const apps: App[] = [
             maximizable: true,
             minimizable: true,
             fullscreenable: true,
-            title: t('app.email.title')
+            title: t('Email')
         },
         icon: '/apps/email.png',
         component: () => <Suspense fallback={<LoadingApp/>}><EmailApp/></Suspense>
