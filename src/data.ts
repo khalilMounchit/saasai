@@ -119,7 +119,7 @@ const projects: Project[] = [
       descriptionFR: "Cette application permet aux utilisateurs d'entrer du texte et de recevoir des traductions dans plusieurs langues, améliorant ainsi la communication entre les cultures.",
       image: "/projets/translator.webp",
       link: "https://langtranslator-khalilmounchits-projects.vercel.app/",
-      skillsName: ["TypeScript","upsolash", "Gemini"]
+      skillsName: ["TypeScript","api", "Gemini"]
     },
     {
       title: "Ai_Neflix  (2024)",
@@ -128,9 +128,9 @@ const projects: Project[] = [
       subtitleFR: "Une application alimentée par l'IA qui fournit des recommandations personnalisées de films et d'émissions.",
       descriptionEN: "This application uses AI to analyze user preferences and suggest movies and shows tailored to individual tastes.",
       descriptionFR: "Cette application utilise l'IA pour analyser les préférences des utilisateurs et suggérer des films et des émissions adaptés aux goûts de chacun.",
-      image: "/projets/ainetlix.webp",
+      image: "/projets/ntflxai.webp",
       link: "https://netflixaisuggestion-khalilmounchits-projects.vercel.app/",
-      skillsName: ["TypeScript","upslash", "Gemini"]
+      skillsName: ["TypeScript","youtube api", "Gemini"]
     }
 ];
  
