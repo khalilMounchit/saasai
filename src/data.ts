@@ -128,7 +128,7 @@ const projects: Project[] = [
       subtitleFR: "Une application alimentée par l'IA qui fournit des recommandations personnalisées de films et d'émissions.",
       descriptionEN: "This application uses AI to analyze user preferences and suggest movies and shows tailored to individual tastes.",
       descriptionFR: "Cette application utilise l'IA pour analyser les préférences des utilisateurs et suggérer des films et des émissions adaptés aux goûts de chacun.",
-      image: "/projets/netlixai.webp",
+      image: "/projets/ainetlix.webp",
       link: "https://netflixaisuggestion-khalilmounchits-projects.vercel.app/",
       skillsName: ["TypeScript","upslash", "Gemini"]
     }

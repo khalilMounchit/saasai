@@ -11,11 +11,11 @@ const SkillsMain = lazy(() => import("./Skills/SkillsMain"));
 const Terminal = lazy(() => import("./Terminal/Terminal"));
 const AboutMe = lazy(() => import("./AboutMe/AboutMe"));
 const EmailApp = lazy(() => import("./Email/EmailWindow"));
-const FishSim = lazy(() => import("./fishsim/Fishsim"));
+
 
 const apps: App[] = [
     {
-        name: t('app.aboutme'),
+        name: t('about'),
         window: {
             width: 600,
             height: 500,
@@ -24,13 +24,13 @@ const apps: App[] = [
             minimizable: false,
             fullscreenable: false,
             transparentTitleBar:true,
-            title: t('app.aboutme'),
+            title: t('aboutme'),
         },
         icon: '/apps/welcome.png',
         component: () => <Suspense fallback={<LoadingApp/>}><AboutMe/></Suspense>
     },
     {
-        name: t('app.projects'),
+        name: t('Projects'),
         window: {
             width: 1000,
             height: 600,
@@ -58,7 +58,7 @@ const apps: App[] = [
         component: () => <Suspense fallback={<LoadingApp/>}><SkillsMain /></Suspense>
     },
     {
-        name: t('app.terminal'),
+        name: t('terminal'),
         window: {
             width: 600,
             height: 420,
@@ -67,7 +67,7 @@ const apps: App[] = [
             minimizable: false,
             fullscreenable: false,
             fillTitlebar: true,
-            title: t('app.terminal')
+            title: t('terminal')
         },
         icon: '/apps/terminal.png',
         component: () => <Suspense fallback={<LoadingApp/>}><Terminal /></Suspense>
@@ -81,7 +81,7 @@ const apps: App[] = [
             maximizable: true,
             minimizable: true,
             fullscreenable: true,
-            title: t('app.github.title')
+            title: t('github')
         },
         icon: '/apps/github.png',
         component: () => <Suspense fallback={<LoadingApp/>}><GithubWindow /></Suspense>
@@ -129,22 +129,7 @@ const apps: App[] = [
         icon: '/apps/vscode.svg',
         component: () => <Suspense fallback={<LoadingApp/>}><Vscode/></Suspense>
     },
-    {
-        name: 'fishsim',
-        window: {
-            width: 1450,
-            height: 800,
-            resizable: true,
-            maximizable: true,
-            minimizable: false,
-            fillTitlebar: true,
-            fullscreenable: true,
-            title: 'FishSim',
-        },
-        hide: true,
-        icon: '/apps/fishsim.png',
-        component: () => <Suspense fallback={<LoadingApp/>}><FishSim/></Suspense>
-    },
+    
 
 
     // Hidden apps
@@ -173,7 +158,7 @@ const apps: App[] = [
             minimizable: false,
             fullscreenable: true,
             transparentTitleBar: true,
-            title: t('app.os.about.title')
+            title: t('about')
         },
         hide: true,
         icon: '/context/about.png',
